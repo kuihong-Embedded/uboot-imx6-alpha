@@ -1,0 +1,6 @@
+MX6ULLEVK BOARD
+M:	Peng Fan <peng.fan@nxp.com>
+S:	Maintained
+F:	board/freescale/mx6ull_kh/
+F:	include/configs/mx6ull_kh.h
+F:	configs/kh_mx6ull_14x14_ddr512_emmc_defconfig
