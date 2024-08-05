@@ -1182,7 +1182,7 @@ int checkboard(void)
 	if (is_mx6ull_9x9_evk())
 		puts("Board: MX6ULL 9x9 EVK\n");
 	else
-		puts("Board: I.MX6U ALPHA|MINI\n");
+		puts("Board: I.MX6U ALPHA|MINI By KuiHong.Xin\n");
 
 	return 0;
 }
