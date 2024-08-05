@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#!/bin/bash
+git pull --rebase
+if  [ $? -eq 0 ]; then
+    echo "git_pull_rebase succeed"
+else
+    echo "failed"
+        exit 0
+fi
+git push origin l_imx6ull_uboot_kh:imx6ull_uboot_kh
